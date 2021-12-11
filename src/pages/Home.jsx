@@ -18,7 +18,7 @@ export default function Home() {
     loading ? 'Loading...' : (
       <div>
         <h1>Home</h1>
-        <button type="button" onClick={ teste }>Say my name</button>
+        <button type="button" onClick={ teste }>Say my name!</button>
         { walter === 'teste' ? walter : walter[0].name }
         <button type="button" onClick={ () => navigate('/teste')  }>Mudar de rota</button>
       </div>
